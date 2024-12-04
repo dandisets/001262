@@ -6,9 +6,29 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: voltage clamp technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 5291216008
+  numberOfFiles: 83
+  numberOfSubjects: 10
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10047
+    name: Meriones unguiculatus
+    schemaKey: SpeciesType
+  variableMeasured:
+  - VoltageClampStimulusSeries
+  - Units
 citation: Heeringa, Amarins (2024) Single-unit auditory nerve fibre responses of young-adult
   and aging gerbils (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001262/draft
 contributor:
