@@ -2,18 +2,9 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001262
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
-about:
-- name: Age-related hearing loss
-  schemaKey: Disorder
-- identifier: UBERON:0004727
-  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
-acknowledgement: I would like to thank Rebecca Felsheim, for programming the NWB conversion
-  tool, Friederike Steenken and Lichun Zhang, for collecting part of these raw data,
-  and Christine Köppl, for her encouragement to pursue this project on data that were
-  generated under her mentorship.
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -39,7 +30,7 @@ assetsSummary:
   - VoltageClampStimulusSeries
   - Units
 citation: Heeringa, Amarins (2024) Single-unit auditory nerve fibre responses of young-adult
-  and aging gerbils (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001262/draft
+  and aging gerbils (Version 0.241205.0929) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.001262/0.241205.0929
 contributor:
 - affiliation: []
   email: amarinsheeringa@gmail.com
@@ -48,15 +39,8 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
-- awardNumber: EXC 2177/1 – Project ID 390895286
-  identifier: https://ror.org/018mejw64
-  includeInCitation: false
-  name: Deutsche Forschungsgemeinschaft
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
 dateCreated: '2024-11-26T07:46:21.012900+00:00'
-datePublished: '2024-12-05T09:59:43.760426+00:00'
+datePublished: '2024-12-05T09:29:27.528277+00:00'
 description: 'This dataset contains the raw waveforms and spike times from single
   auditory nerve fibres of young-adult, middle-aged, and old Mongolian gerbils raised
   in a quiet environment, while presenting a variety of acoustic stimuli to assess
@@ -73,75 +57,28 @@ description: 'This dataset contains the raw waveforms and spike times from singl
   stimuli, such as speech logatomes in background noise and Schroeder-phase stimuli.
   Methods and data validation of this dataset are described in detail in a manuscript
   with doi: 10.1038/s41597-024-03259-3. '
-ethicsApproval:
-- contactPoint:
-    schemaKey: ContactPoint
-  identifier: AZ 33.9-42502-04-11/0337
-  schemaKey: EthicsApproval
-- contactPoint:
-    schemaKey: ContactPoint
-  identifier: AZ 33.19-42502-04-15/1990
-  schemaKey: EthicsApproval
-- contactPoint:
-    schemaKey: ContactPoint
-  identifier: AZ 33.19-42502-04-21/3695
-  schemaKey: EthicsApproval
-id: DANDI:001262/draft
+doi: 10.48324/dandi.001262/0.241205.0929
+id: DANDI:001262/0.241205.0929
 identifier: DANDI:001262
-keywords:
-- Age-related hearing loss
-- Auditory nerve
-- Acoustic stimuli
-- Mongolian gerbil
-- Single unit neurophysiology
 license:
 - spdx:CC0-1.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001262/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001262/0.241205.0929/assets.yaml
 name: Single-unit auditory nerve fibre responses of young-adult and aging gerbils
-protocol:
-- https://doi.org/10.1038/s41597-024-03259-3
 publishedBy:
-  endDate: '2024-12-05T09:59:43.760426+00:00'
-  id: urn:uuid:c113fa93-e66e-46b9-b966-fda34dbb8c88
+  endDate: '2024-12-05T09:29:27.528277+00:00'
+  id: urn:uuid:d3f1370b-55d0-4e38-b57d-8b3bbc7834ea
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-12-05T09:59:43.760426+00:00'
+  startDate: '2024-12-05T09:29:27.528277+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:a6a8efcd-ff55-4d07-a58c-170196c62ef6
+  - id: urn:uuid:c8285839-1c39-46db-80db-a02b8c3be2dc
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
     version: 0.1.0
-relatedResource:
-- identifier: 10.5061/dryad.qv9s4mwn4
-  name: Single-unit auditory nerve fibre responses of young-adult and aging gerbils
-  relation: dcite:IsVariantFormOf
-  repository: Dryad
-  resourceType: dcite:Dataset
-  schemaKey: Resource
-  url: https://doi.org/10.5061/dryad.qv9s4mwn4
-- identifier: 10.5281/zenodo.10370064
-  name: Single-unit auditory nerve fibre responses of young-adult and aging gerbils
-  relation: dcite:IsSupplementTo
-  repository: Zenodo
-  resourceType: dcite:Software
-  schemaKey: Resource
-  url: https://doi.org/10.5281/zenodo.10370064
-- identifier: 10.1038/s41597-024-03259-3
-  name: 'Single-unit data for sensory neuroscience: Responses from the auditory nerve
-    of young-adult and aging gerbils'
-  relation: dcite:Describes
-  repository: Nature Scientific Data
-  resourceType: dcite:DataPaper
-  schemaKey: Resource
-  url: https://doi.org/10.1038/s41597-024-03259-3
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-studyTarget:
-- The functional consequences of age-related cochlear damage on single unit auditory
-  nerve fibers
-url: https://dandiarchive.org/dandiset/001262/draft
-version: draft
-wasGeneratedBy: []
+url: https://dandiarchive.org/dandiset/001262/0.241205.0929
+version: 0.241205.0929
