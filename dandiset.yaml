@@ -39,7 +39,7 @@ assetsSummary:
   - VoltageClampStimulusSeries
   - Units
 citation: Heeringa, Amarins (2024) Single-unit auditory nerve fibre responses of young-adult
-  and aging gerbils (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001262/draft
+  and aging gerbils (Version 0.241205.0959) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.001262/0.241205.0959
 contributor:
 - affiliation: []
   email: amarinsheeringa@gmail.com
@@ -73,6 +73,7 @@ description: 'This dataset contains the raw waveforms and spike times from singl
   stimuli, such as speech logatomes in background noise and Schroeder-phase stimuli.
   Methods and data validation of this dataset are described in detail in a manuscript
   with doi: 10.1038/s41597-024-03259-3. '
+doi: 10.48324/dandi.001262/0.241205.0959
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
@@ -86,7 +87,7 @@ ethicsApproval:
     schemaKey: ContactPoint
   identifier: AZ 33.19-42502-04-21/3695
   schemaKey: EthicsApproval
-id: DANDI:001262/draft
+id: DANDI:001262/0.241205.0959
 identifier: DANDI:001262
 keywords:
 - Age-related hearing loss
@@ -97,7 +98,7 @@ keywords:
 license:
 - spdx:CC0-1.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001262/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001262/0.241205.0959/assets.yaml
 name: Single-unit auditory nerve fibre responses of young-adult and aging gerbils
 protocol:
 - https://doi.org/10.1038/s41597-024-03259-3
@@ -142,6 +143,6 @@ schemaVersion: 0.6.8
 studyTarget:
 - The functional consequences of age-related cochlear damage on single unit auditory
   nerve fibers
-url: https://dandiarchive.org/dandiset/001262/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001262/0.241205.0959
+version: 0.241205.0959
 wasGeneratedBy: []
